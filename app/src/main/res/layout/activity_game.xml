@@ -1,0 +1,104 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/tableLayoutGame"
+             android:layout_gravity="center_vertical"
+             android:stretchColumns="*"
+             tools:context="com.orsay.tictactoe.activities.GameActivity">
+
+    <TableRow>
+        <TextView android:id="@+id/textView1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size"
+            android:background="@drawable/rectangle" />
+
+        <TextView android:id="@+id/textView2"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size"
+            android:background="@drawable/rectangle" />
+
+        <TextView android:id="@+id/textView3"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size"
+            android:background="@drawable/rectangle" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:id="@+id/textView4"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size"
+            android:background="@drawable/rectangle" />
+
+        <TextView android:id="@+id/textView5"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size"
+            android:background="@drawable/rectangle" />
+
+        <TextView android:id="@+id/textView6"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size"
+            android:background="@drawable/rectangle" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textView7"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size"
+            android:background="@drawable/rectangle" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size"
+            android:background="@drawable/rectangle" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size"
+            android:background="@drawable/rectangle" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textViewStatusGame"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp" />
+    <Button
+        android:id="@+id/buttonNewGame"
+        android:text="@string/new_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</TableLayout>

@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin_button"
+    android:paddingRight="@dimen/activity_horizontal_margin_button"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.orsay.tictactoe.activities.TicTacToeMainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/app_name"
+        android:id="@+id/textViewTitle"
+        android:layout_marginBottom="80dp" />
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/one_player"
+            android:id="@+id/buttonOnePlayerMode" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/two_players"
+            android:id="@+id/buttonTwoPlayersMode"
+            android:layout_marginTop="@dimen/vertical_space_menu_buttons" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about"
+            android:id="@+id/buttonAbout"
+            android:layout_marginTop="@dimen/vertical_space_menu_buttons" />
+    </LinearLayout>
+
+</LinearLayout>
