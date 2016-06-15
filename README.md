@@ -1,2 +1,2 @@
-# TicTacToe (school project)
+# TicTacToe (degree school project)
 TicTacToe game (Android).
